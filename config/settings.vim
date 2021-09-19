@@ -21,6 +21,8 @@ set splitright
 set clipboard=unnamedplus
 set background=dark
 set autochdir
+set updatetime=300                      
+set formatoptions-=cro                  " Stop newline continution of comments
 syntax enable
 filetype on
 filetype indent on
