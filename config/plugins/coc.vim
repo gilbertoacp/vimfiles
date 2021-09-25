@@ -164,5 +164,15 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 " " Resume latest coc list.
 " nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-explorer', 'coc-angular', 'coc-css', 'coc-vetur', 'coc-tsserver']
+let g:coc_global_extensions = [
+      \ 'coc-json', 
+      \  'coc-git', 
+      \  'coc-explorer', 
+      \  'coc-angular', 
+      \  'coc-css', 
+      \  'coc-vetur', 
+      \  'coc-tsserver', 
+      \  'coc-go', 
+      \  'coc-phpls'
+      \]
 
