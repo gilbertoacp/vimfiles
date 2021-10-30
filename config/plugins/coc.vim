@@ -155,6 +155,6 @@ let g:coc_global_extensions = [
       \  'coc-vetur', 
       \  'coc-tsserver', 
       \  'coc-go', 
-      \  'coc-phpls'
+      \  'coc-phpls',
       \]
 
