@@ -2,6 +2,7 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
+let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme = 'tomorrow'
 let g:onedark_color_overrides = {

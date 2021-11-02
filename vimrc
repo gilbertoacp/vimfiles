@@ -9,4 +9,3 @@ source $HOME/.vim/config/plugins/coc-explorer.vim
 source $HOME/.vim/config/plugins/coc.vim
 source $HOME/.vim/config/plugins/vim-closetag.vim
 source $HOME/.vim/config/plugins/floaterm.vim
-source $HOME/.vim/config/plugins/neocomplcache.vim

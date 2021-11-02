@@ -14,7 +14,7 @@ set cmdheight=2
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
-set updatetime=300
+" set updatetime=300
 
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
@@ -147,14 +147,14 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 let g:coc_global_extensions = [
-      \ 'coc-json', 
-      \  'coc-git', 
-      \  'coc-explorer', 
-      \  'coc-angular', 
-      \  'coc-css', 
-      \  'coc-vetur', 
-      \  'coc-tsserver', 
-      \  'coc-go', 
-      \  'coc-phpls',
-      \]
+  \ 'coc-json', 
+  \  'coc-git', 
+  \  'coc-explorer', 
+  \  'coc-angular', 
+  \  'coc-css', 
+  \  'coc-vetur', 
+  \  'coc-tsserver', 
+  \  'coc-go', 
+  \  'coc-phpls',
+  \]
 
