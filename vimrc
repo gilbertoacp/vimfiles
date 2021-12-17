@@ -2,8 +2,6 @@ source $HOME/.vim/config/plugins.vim
 source $HOME/.vim/config/settings.vim
 source $HOME/.vim/config/keys.vim
 source $HOME/.vim/config/appearance.vim
-
-" Plugins configuration
 source $HOME/.vim/config/plugins/coc-explorer.vim
 source $HOME/.vim/config/plugins/coc.vim
 source $HOME/.vim/config/plugins/fzf.vim

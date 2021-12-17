@@ -92,7 +92,6 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 
 let g:coc_global_extensions = [
   \ 'coc-json', 
-  \  'coc-git', 
   \  'coc-explorer', 
   \  'coc-angular', 
   \  'coc-css', 
@@ -100,5 +99,6 @@ let g:coc_global_extensions = [
   \  'coc-tsserver', 
   \  'coc-go', 
   \  'coc-phpls',
+  \  'coc-sumneko-lua',
   \]
 
