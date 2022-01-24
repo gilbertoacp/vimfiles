@@ -2,10 +2,7 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
-let g:airline#extensions#tabline#fnamemod = ':t'
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme = 'tomorrow'
-let g:onedark_color_overrides = {
-\ "background": {"gui": "#1e222a", "cterm": "235", "cterm16": "0" },
-\}
-colorscheme onedark
+let g:material_terminal_italics = 1
+let g:material_theme_style = 'darker'
+let g:airline_theme = 'material'
+colorscheme material

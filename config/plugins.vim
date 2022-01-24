@@ -28,10 +28,10 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'joshdick/onedark.vim'
 
-Plug 'mhinz/vim-startify'
-
 Plug 'yggdroot/indentline'
 
 Plug 'scrooloose/nerdtree'
+
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
 call plug#end()
